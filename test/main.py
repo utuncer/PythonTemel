@@ -70,3 +70,16 @@
 # isim = input("İsminizi giriniz: ")
 # print(isim.title())
 
+#Mantıksal Operatörler
+
+# arabanVarMi = True
+# ehliyetinVarMi = False
+
+# if arabanVarMi and ehliyetinVarMi:
+#     print("Trafiğe çıkabilirsin")
+# elif arabanVarMi and not ehliyetinVarMi:
+#     print("Araban var ve henüz ehliyetin yoksa trafiğe çıkamazsın")
+# elif arabanVarMi or ehliyetinVarMi:
+#     print("Trafiğe çıkmana az kaldı")
+# else:
+#     print("Trafiğe çıkmana uzun bir yol var")
