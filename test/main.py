@@ -83,3 +83,83 @@
 #     print("Trafiğe çıkmana az kaldı")
 # else:
 #     print("Trafiğe çıkmana uzun bir yol var")
+
+# yas = int(input("Yaşınızı giriniz: "))
+# okulaGidiyorMu = input("Okula gidiyor musunuz? (evet: e, hayır: h): ")
+
+# if okulaGidiyorMu == "e":
+#     bool(okulaGidiyorMu) 
+#     okulaGidiyorMu = True
+# elif okulaGidiyorMu == "h":
+#     bool(okulaGidiyorMu) 
+#     okulaGidiyorMu = False
+# else:
+#     print("Girdiğiniz değer tanımlanamadı")
+
+
+# if yas > 18 and not okulaGidiyorMu :
+#     print("Askere gitme yaşınız geldi")
+# elif yas > 18 and okulaGidiyorMu:
+#     print("Okulunuz bittiğinde askere gideceksiniz")
+# else:
+#     print("Askerlik yaşınız henüz gelmedi");
+
+# #print(str(type(yas)) + " " + str(type(okulaGidiyorMu)))
+
+# i = 1
+
+# while i <= 10:
+#     print(i)
+#     i = i + 1
+
+# isciler = ["Mehmet","Ahmet","Hakan"]
+# print(isciler[0:2])
+
+# sayi1 = int(input("İşlem yapacağınız 1. Sayıyı giriniz: "))
+# sayi2 = int(input("İşlem yapacağınız 2. Sayıyı giriniz: "))
+
+# islem = int(input("\nToplama için : 1\nÇıkarma için : 2\nÇarpma için : 3\nBölme için : 4\nYapmak istediğiniz işlemi seçin: "))
+
+# if islem == 1:
+#     print("Sonuç: " + str(sayi1 + sayi2))
+# elif islem == 2:
+#     print("Sonuç: " + str(sayi1 - sayi2))
+# elif islem == 3:
+#     print("Sonuç: " + str(sayi1 * sayi2))
+# elif islem == 4:
+#     print("Sonuç: " + str(sayi1 / sayi2))
+
+# for i in range(0, 10, 2):  # 0'dan 9'a, 2'şer artırarak
+#     print(i)
+
+# kelime = "Python"
+# for harf in kelime:
+#     print(harf)
+
+# bilgiler = {"isim": "Ali", "yas": 25}
+# for anahtar in bilgiler:
+#     print(anahtar, ":", bilgiler[anahtar])
+# # isim : Ali
+# # yas : 25
+
+# # Yeni bir sözlük tanımla
+# test = {"araba": "Toyota", "renk": "mavi"}
+# print(test["araba"])  # Toyota yazdırır
+# print(test["renk"])   # mavi yazdırır
+
+# for s in range(3):  # 3 kişi için
+#     yas = input("Yaşınızı giriniz: ")
+#     okulaGidiyorMu = input("Okula gidiyor musunuz? (evet: e, hayır: h): ")
+#     if okulaGidiyorMu == "e":
+#         okulaGidiyorMu = True
+#     elif okulaGidiyorMu == "h":
+#         okulaGidiyorMu = False
+#     else:
+#         print("Girdiğiniz değer tanımlanamadı")
+#     print(f"Yaş: {yas}, Okula gidiyor mu? {okulaGidiyorMu}")
+
+#print yazma alternatifleri
+
+# print(f"Yaş: {yas}, Okula gidiyor mu? {okulaGidiyorMu}")
+# print("Yaş: %s, Okula gidiyor mu? %s" % (yas, okulaGidiyorMu))
+# print("Yaş: {}, Okula gidiyor mu? {}".format(yas, okulaGidiyorMu))
